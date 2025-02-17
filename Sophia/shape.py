@@ -1,12 +1,11 @@
-1 """ Module qui cree des formes"""
-2
-3 DATE = 17022025
+""" Module qui cree des formes"""
+DATE = 17022025
 
 
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap, BoundaryNorm
 import numpy as np
-import growth
+from Sophia import growth
 import copy
 import visualization
 
